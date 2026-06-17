@@ -1,6 +1,5 @@
 # HomelyHub 🏡
-
-A full-stack vacation rental platform inspired by Airbnb, built using the MERN ecosystem. Users can explore property listings, create and manage accommodations, upload images, leave reviews, and view property locations on interactive maps.
+A full-stack vacation rental platform inspired by Airbnb, built using Node.js, Express.js, MongoDB, EJS, and Bootstrap.
 
 ## 🚀 Features
 
@@ -75,7 +74,6 @@ Through this project, I gained practical experience in:
 * Real-time notifications
 
 
-## 📸 Project Link
+## 🌐 Live Demo
 
-(https://homely-d6kb.onrender.com/listings)
-
+https://homely-d6kb.onrender.com/listings
