@@ -67,9 +67,9 @@ const sessionOptions = {
   },
 };
 
-app.get("/", (req , res) => {
-  res.send("Hi, I am root");
-});
+// app.get("/", (req , res) => {
+//   res.send("Hi, I am root");
+// });
 
 
 
@@ -107,7 +107,9 @@ app.use("/listings", listingRouter);
 app.use("/listings/:id/reviews", reviewRouter);
 app.use("/", userRouter);
 
-
+app.get("/", (req, res) => {
+  res.redirect("/listings");
+});
 
 //page not found
 app.all("*", (req, res, next) => {
