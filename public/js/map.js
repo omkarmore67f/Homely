@@ -1,3 +1,6 @@
+
+console.log("Listing Data:", listing);
+console.log("Geometry:", listing.geometry);
 const coords = listing.geometry.coordinates;
 
 const map = L.map("map").setView(
